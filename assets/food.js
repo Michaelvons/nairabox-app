@@ -261,7 +261,7 @@ var food = {
 		app.send(app.API + "food/", {case: "buy", bag: bag, address: addressID, store: food.storeID, oauth: localStorage.oauth, pin: pin}, function (data) {
 			app.hideBusy();
 
-			debugger;
+			//debugger;
 
 			if (data.status === 200) {
 				views.goto("foodOrderComplete", function () {
