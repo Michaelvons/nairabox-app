@@ -9,7 +9,7 @@
 
 	<description>nairabox is the faster and safer way to send money, save and monitor your spending.</description>
 
-	<preference name="phonegap-version" value="cli-6.4.0" />
+	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="prerendered-icon" value="true" />
 	<preference name="orientation" value="portrait" />
 	<preference name="exit-on-suspend" value="false" />
